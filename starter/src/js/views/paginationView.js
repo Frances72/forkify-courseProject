@@ -69,7 +69,7 @@ class PaginationView extends View {
               </svg>
         </button> `;
     }
-    // Page 1, and there are other pages
+
     return '';
   }
 }

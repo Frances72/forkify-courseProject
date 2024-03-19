@@ -14,7 +14,7 @@ class SearchView {
   addHandlerSearch(handler) {
     //publisher
     this.#parentEl.addEventListener('submit', function (e) {
-      e.preventDefault(); //when submitting a form, prevent page from reloading
+      e.preventDefault();
       handler();
     });
   }
